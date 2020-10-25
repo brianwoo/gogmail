@@ -5,8 +5,8 @@ Wrapper Library to send email messages with Gmail with OAuth2
 go get -u github.com/brianwoo/gogmail
 
 # How to Setup the Gmail API and OAuth2
-In order to send email using Gmail + OAuth2, you will need to create a project in the Google Developer Console. (Thanks to Binod Kafle for the instructions)
+In order to send email using Gmail + OAuth2, you will need to create a project in the [Google Developer Console](https://console.cloud.google.com). (Thanks to Binod Kafle for the instructions)
 
-![yaktocat Logo](/images/yaktocat.png)
+![Select a project](/images/select_a_project.png)
 
 
