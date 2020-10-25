@@ -12,7 +12,7 @@ In order to send email using Gmail + OAuth2, you will need to create a project i
 ![New project](/images/new_project.png)
 
 Give your project a name:
-![Name your project](/images/new_your_project.png)
+![Name your project](/images/name_your_project.png)
 
 You will then be brought back to the Google Cloud Platform home page.
 Select APIs & Services --> Dashboard
@@ -48,5 +48,36 @@ Make sure you save your Client ID and Client Secret somewhere for later
 ![oauth_client_created](/images/oauth_client_created.png)
 
 Go to https://developers.google.com/oauthplayground
+
+Click the settings button in the upper right corner. Click the checkbox "Use your own OAuth credentials". Copy and paste the OAuth Client ID and Client secret from earlier.
+
+Next, enter http://mail.google.com in the input box (next to the Authorize APIs)
+
+Click Authorize APIs button.
+
+![oauth 2.0 configuration](/images/oauth_playground.png)
+
+You will then see a Sign in screen.  Select your account to sign in.
+
+![sign in screen](/images/choose_an_account.png)
+
+You will see a screen such as the following. Click Advanced and Click the Go to Project link
+
+![app not verified](/images/app_not_verified.png)
+
+
+Grant your project permission to access Gmail
+
+![grant project permission](/images/grant_project_permission.png)
+
+You will be brought back to Step 2. Click "Exchange authorization code for tokens".
+
+Copy the Refresh token and Access token for later use.
+
+![refresh access tokens](/images/refresh_access_token.png)
+
+That's it for API setup!
+
+
 
 
