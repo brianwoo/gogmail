@@ -81,7 +81,7 @@ The OAuth client is now created. Make sure you save your OAuth **Client ID** and
 ## Step 13:
 Go to [OAuth Playground](https://developers.google.com/oauthplayground)
 
-Click the settings button in the upper right corner. Click the checkbox **Use your own OAuth credentials**. Copy and paste the **OAuth Client ID** and **Client Secret** from earlier.
+Click the settings button in the upper right corner. Click the checkbox **Use your own OAuth credentials**. Copy and paste the **OAuth Client ID** and **Client Secret** generated from earlier.
 
 Next, enter http://mail.google.com in the input box (next to the **Authorize APIs** button in the lower left).  Click **Authorize APIs button** to proceed.
 
