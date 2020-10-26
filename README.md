@@ -5,7 +5,7 @@ A Library to send email messages with Gmail with OAuth2
 go get -u github.com/brianwoo/gogmail
 
 # How to Setup the Gmail API and OAuth2
-To send email messages using Gmail with OAuth2, you will need to following the steps below to get four pieces of credential information:
+To send email messages using Gmail with OAuth2, you will need to complete the following steps to get four pieces of credential information:
 
 1. *OAuth Client ID*
 1. *OAuth Client Secret*
